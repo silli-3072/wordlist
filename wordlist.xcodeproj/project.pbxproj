@@ -16,6 +16,14 @@
 		B736462C282E3915003E920B /* wordlistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B736462B282E3915003E920B /* wordlistTests.swift */; };
 		B7364636282E3915003E920B /* wordlistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7364635282E3915003E920B /* wordlistUITests.swift */; };
 		B7364638282E3915003E920B /* wordlistUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7364637282E3915003E920B /* wordlistUITestsLaunchTests.swift */; };
+		B7364648282E396D003E920B /* word_blank.png in Resources */ = {isa = PBXBuildFile; fileRef = B7364645282E396D003E920B /* word_blank.png */; };
+		B7364649282E396D003E920B /* fin.png in Resources */ = {isa = PBXBuildFile; fileRef = B7364646282E396D003E920B /* fin.png */; };
+		B736464A282E396D003E920B /* title_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B7364647282E396D003E920B /* title_logo.png */; };
+		B736464C282E3D43003E920B /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B736464B282E3D42003E920B /* QuestionViewController.swift */; };
+		B736464E282E3D58003E920B /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B736464D282E3D58003E920B /* FinishViewController.swift */; };
+		B7364650282E3D94003E920B /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B736464F282E3D94003E920B /* ListTableViewController.swift */; };
+		B7364652282E3DBA003E920B /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7364651282E3DBA003E920B /* AddViewController.swift */; };
+		B7364654282E4277003E920B /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7364653282E4276003E920B /* ListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		B7364631282E3915003E920B /* wordlistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wordlistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7364635282E3915003E920B /* wordlistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordlistUITests.swift; sourceTree = "<group>"; };
 		B7364637282E3915003E920B /* wordlistUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordlistUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B7364645282E396D003E920B /* word_blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = word_blank.png; sourceTree = "<group>"; };
+		B7364646282E396D003E920B /* fin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fin.png; sourceTree = "<group>"; };
+		B7364647282E396D003E920B /* title_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_logo.png; sourceTree = "<group>"; };
+		B736464B282E3D42003E920B /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		B736464D282E3D58003E920B /* FinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
+		B736464F282E3D94003E920B /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		B7364651282E3DBA003E920B /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		B7364653282E4276003E920B /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +115,7 @@
 		B7364613282E3911003E920B /* wordlist */ = {
 			isa = PBXGroup;
 			children = (
+				B7364644282E396D003E920B /* WordList素材 */,
 				B7364614282E3911003E920B /* AppDelegate.swift */,
 				B7364616282E3911003E920B /* SceneDelegate.swift */,
 				B7364618282E3911003E920B /* ViewController.swift */,
@@ -106,6 +123,11 @@
 				B736461D282E3914003E920B /* Assets.xcassets */,
 				B736461F282E3914003E920B /* LaunchScreen.storyboard */,
 				B7364622282E3914003E920B /* Info.plist */,
+				B736464B282E3D42003E920B /* QuestionViewController.swift */,
+				B736464D282E3D58003E920B /* FinishViewController.swift */,
+				B736464F282E3D94003E920B /* ListTableViewController.swift */,
+				B7364651282E3DBA003E920B /* AddViewController.swift */,
+				B7364653282E4276003E920B /* ListTableViewCell.swift */,
 			);
 			path = wordlist;
 			sourceTree = "<group>";
@@ -125,6 +147,16 @@
 				B7364637282E3915003E920B /* wordlistUITestsLaunchTests.swift */,
 			);
 			path = wordlistUITests;
+			sourceTree = "<group>";
+		};
+		B7364644282E396D003E920B /* WordList素材 */ = {
+			isa = PBXGroup;
+			children = (
+				B7364645282E396D003E920B /* word_blank.png */,
+				B7364646282E396D003E920B /* fin.png */,
+				B7364647282E396D003E920B /* title_logo.png */,
+			);
+			path = "WordList素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +263,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7364648282E396D003E920B /* word_blank.png in Resources */,
+				B736464A282E396D003E920B /* title_logo.png in Resources */,
 				B7364621282E3914003E920B /* LaunchScreen.storyboard in Resources */,
 				B736461E282E3914003E920B /* Assets.xcassets in Resources */,
+				B7364649282E396D003E920B /* fin.png in Resources */,
 				B736461C282E3911003E920B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,8 +293,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B736464E282E3D58003E920B /* FinishViewController.swift in Sources */,
+				B7364654282E4277003E920B /* ListTableViewCell.swift in Sources */,
 				B7364619282E3911003E920B /* ViewController.swift in Sources */,
+				B7364652282E3DBA003E920B /* AddViewController.swift in Sources */,
 				B7364615282E3911003E920B /* AppDelegate.swift in Sources */,
+				B7364650282E3D94003E920B /* ListTableViewController.swift in Sources */,
+				B736464C282E3D43003E920B /* QuestionViewController.swift in Sources */,
 				B7364617282E3911003E920B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
